@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PPS Kesatria Cidaun</title>
     <link rel="stylesheet" href="css/index.css" />
-    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   </head>
   <body>
     <!-- Start Navbar -->
     <nav>
       <div class="">
-        <img src="img/logokst.jpg" alt="Kesatria Cidaun" />
+        <img src="img/KESATRIA CIDAUN (500 x 200 px).png" alt="Kesatria Cidaun" />
       </div>
       <div id="menu-icon" class="menu-icon">
         <i class="ph ph-list"></i>
@@ -43,14 +43,155 @@
 
     <!-- Start Beranda -->
     <section>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae at, id, ipsam, rerum tempora suscipit beatae perferendis doloribus eius laudantium praesentium totam cumque quasi consequuntur impedit. Maiores labore repellendus
-        mollitia.
-      </p>
+      <div class="slides">
+        <div class="slide">
+          <img src="img/banner.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/banner2.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/bannercoc.jpg" alt="" />
+        </div>
+        <div class="navigation">
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(-1)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="judul">
+        <h1>Berita Terbaru</h1>
+      </div>
+
+      <div class="swiper">
+        <div class="card-wrapper">
+          <ul class="card-list swiper-wrapper">
+            <li class="card-item swiper-slide">
+              <a href="#" class="card-link">
+                <img src="img/kejurda pelajar.jpg" alt="Kejurda Pelajar Pra Remaja" class="card-image" />
+                <p class="badge kejurda">Berita</p>
+                <h2 class="card-title">Kejurda Pelajar III Pra Remaja Kabupaten Cianjur</h2>
+                <p class="card-button">Admin <span>|</span><i class="ph ph-calendar-dots"></i> 01 Sep 2024</p>
+              </a>
+            </li>
+            <li class="card-item swiper-slide">
+              <a href="#" class="card-link">
+                <img src="img/coc2023.jpg" alt="Cianjur Open Championship 3" class="card-image" />
+                <p class="badge coc3">Berita</p>
+                <h2 class="card-title">Cianjur Open Championship 3 di Gedung Pramuka Cianjur</h2>
+                <p class="card-button">Admin <span>|</span><i class="ph ph-calendar-dots"></i> 01 Sep 2024</p>
+              </a>
+            </li>
+            <li class="card-item swiper-slide">
+              <a href="#" class="card-link">
+                <img src="img/logokst.jpg" alt="Kesatria Cidaun" class="card-image" />
+                <p class="badge kesatria">Artikel</p>
+                <h2 class="card-title">Mengenal Lebih Dalam Tentang PPS Kesatria Cidaun</h2>
+                <p class="card-button">Dede Ihsan<span>|</span><i class="ph ph-calendar-dots"></i> 01 Sep 2024</p>
+              </a>
+            </li>
+            <li class="card-item swiper-slide">
+              <a href="#" class="card-link">
+                <img src="img/coc2024.jpg" alt="Cianjur Open Championship 4" class="card-image" />
+                <p class="badge coc4">Berita</p>
+                <h2 class="card-title">Cianjur Open Championship 4 di Gor Cianjur</h2>
+                <p class="card-button">Admin <span>|</span><i class="ph ph-calendar-dots"></i> 01 Sep 2024</p>
+              </a>
+            </li>
+            <li class="card-item swiper-slide">
+              <a href="#" class="card-link">
+                <img src="img/penataran.jpg" alt="Penataran" class="card-image" />
+                <p class="badge penataran">Berita</p>
+                <h2 class="card-title">Penataran Peraturan Baru Pencak Silat Jawa Barat</h2>
+                <p class="card-button">Admin <span>|</span><i class="ph ph-calendar-dots"></i> 01 Sep 2024</p>
+              </a>
+            </li>
+            <li class="card-item swiper-slide">
+              <a href="#" class="card-link">
+                <img src="img/pelantikan terbaru.jpg" alt="Pelantikan Anggota Baru" class="card-image" />
+                <p class="badge pelantikan">Berita</p>
+                <h2 class="card-title">Pelantikan Anggota Baru dan Kenaikan Sabuk Hijau</h2>
+                <p class="card-button">Admin <span>|</span><i class="ph ph-calendar-dots"></i> 01 Sep 2024</p>
+              </a>
+            </li>
+          </ul>
+
+          <div class="swiper-pagination"></div>
+          <div class="swiper-slide-button swiper-button-prev"></div>
+          <div class="swiper-slide-button swiper-button-next"></div>
+        </div>
+      </div>
     </section>
     <!-- End Beranda -->
 
+    <!-- Start Footer -->
+    <footer class="footer">
+      <div class="row">
+        <div class="footer-col">
+          <img src="img/KESATRIA CIDAUN (500 x 200 px).png" alt="" />
+          <p class="caption-kst">Paguron Pencak Silat Kesatria Cidaun <br />menganut sistem sambung bebas yang <br />sebenarnya atau Real Fight atau lebih <br />dikenal dengan Full Body Contact System</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Menu</h4>
+          <div class="menu-links">
+            <a href="#">Beranda</a>
+            <a href="#">Tentang Kami</a>
+            <a href="#">Berita</a>
+            <a href="#">Prestasi</a>
+            <a href="#">Hubungi Kami</a>
+          </div>
+        </div>
+        <div class="footer-col-add">
+          <h4>Alamat</h4>
+          <p>
+            Kp. Bobojong, Desa. Cidamar, Kec. Cidaun,<br />
+            Kab. Cianjur, Jawa Barat 43275
+          </p>
+          <div class="social-links">
+            <a href="#"><i class="ph ph-facebook-logo"></i></a>
+            <a href="#"><i class="ph ph-instagram-logo"></i></a>
+            <a href="#"><i class="ph ph-youtube-logo"></i></a>
+            <a href="#"><i class="ph ph-tiktok-logo"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="row2">
+        <div class="col-1">
+          <p>2024 © KST CDN | All Rights Reserved. <span>Develop By Muhamad Nur Salam</span></p>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
     <!-- Script -->
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      var slidIndex = 1;
+      showSlides(slidIndex);
+
+      function plusSlides(n) {
+        showSlides((slidIndex += n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("slide");
+        if (n > slides.length) {
+          slidIndex = 1;
+        }
+        if (n < 1) {
+          slidIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slides[slidIndex - 1].style.display = "block";
+      }
+    </script>
     <script src="script.js"></script>
     <!-- End Script -->
   </body>
