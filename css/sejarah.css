@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+body {
+  background-color: #fff;
+  line-height: 1.65;
+}
+
+.container {
+  padding: 200px 80px;
+  padding-bottom: 50px;
+  width: 100%;
+  background-color: #ddd;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.container .undo {
+  padding: 3px;
+  margin: 10px;
+  width: 500px;
+  height: 30px;
+  border: 2px solid transparent;
+  box-shadow: 0 0 5px #000;
+  border-radius: 5px;
+}
+
+.container .undo:hover{
+  background-color: #fff;
+}
+
+.container .undo a {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.container .undo a:hover{
+  color: #000;
+}
+
+.col-1 {
+  padding: 10px;
+  background-color: #fff;
+  width: 2500px;
+  height: 210vh;
+  border: 2px solid transparent;
+  box-shadow: 0 0 5px #000;
+  border-radius: 5px;
+}
+
+.col-1 p {
+  padding-top: 20px;
+  text-align: justify;
+  padding: 15px;
+}
+
+.col-2 {
+  padding: 10px;
+  background-color: #fff;
+  width: 1000px;
+  height: 100vh;
+  border: 2px solid transparent;
+  box-shadow: 0 0 5px #000;
+  border-radius: 5px;
+  margin: 0 30px;
+  text-align: center;
+}
+
+.col-2 img {
+  width: 300px;
+}
+
+.col-2 p {
+  text-align: justify;
+}
