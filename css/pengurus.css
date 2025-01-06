@@ -17,31 +17,6 @@ body {
   display: flex;
 }
 
-.container .undo {
-  padding: 3px;
-  margin: 10px;
-  width: 500px;
-  height: 30px;
-  border: 2px solid transparent;
-  box-shadow: 0 0 5px #000;
-  border-radius: 5px;
-}
-
-.container .undo:hover{
-  background-color: #fff;
-}
-
-.container .undo a {
-  color: #fff;
-  text-decoration: none;
-  padding: 20px;
-  font-size: 15px;
-}
-
-.container .undo a:hover{
-  color: #000;
-}
-
 .col-1 {
   padding: 10px;
   background-color: #fff;
