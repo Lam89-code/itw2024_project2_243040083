@@ -1,8 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  transition: 0.5s;
+*{
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -54,9 +52,9 @@ body {
   border-radius: 5px;
 }
 
-.col-1 p {
+.col-1 img {
   padding-top: 20px;
-  text-align: justify;
+width: 700px;
   padding: 15px;
 }
 
@@ -64,7 +62,7 @@ body {
   padding: 10px;
   background-color: #fff;
   width: 1000px;
-  height: 150vh;
+  height: 100vh;
   border: 2px solid transparent;
   box-shadow: 0 0 5px #000;
   border-radius: 5px;
