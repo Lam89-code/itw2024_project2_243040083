@@ -3,9 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PPS Kesatria Cidaun</title>
+    <title>🥋PPS Kesatria Cidaun</title>
     <link rel="stylesheet" href="css/index.css" />
+
+    <!-- Swipper -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- End Swipper -->
+
+    <!-- Animation AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- End Animation AOS -->
+
+    <!-- Animation Animasi.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- End Animation Animasi.css -->
   </head>
   <body>
     <!-- Start Navbar -->
@@ -13,7 +24,7 @@
       <div class="navnav">
         <div class="row-info">
           <div class="col-info">
-            <div class="info">
+            <div class="info animate__animated animate__fadeInRight">
               <a href="#" class="fb"><i class="ph ph-facebook-logo"></i></a>
               <a href="#" class="ig"><i class="ph ph-instagram-logo"></i></a>
               <a href="#" class="yt"><i class="ph ph-youtube-logo"></i></a>
@@ -21,10 +32,10 @@
             </div>
           </div>
           <div class="col-info">
-            <div class="info2">
-              <a href="#" class="phone"><i class="ph ph-phone"></i>0852-2156-0909</a>
+            <div class="info2 animate__animated animate__fadeInLeft">
+              <a href="#" class="phone"><i class="ph ph-phone"></i>0857-2343-3061</a>
               <i class="line ph ph-line-vertical"></i>
-              <a href="#" class="mail"><i class="ph ph-envelope-simple"></i>aaallaaamm03@gmail.com</a>
+              <a href="#" class="mail"><i class="ph ph-envelope-simple"></i>kesatriacidaun.official@gmail.com</a>
             </div>
           </div>
         </div>
@@ -82,11 +93,11 @@
       </div>
 
       <div class="judul">
-        <h1>Berita Terbaru</h1>
+        <h1 class="animate__animated animate__zoomIn">Berita Terbaru</h1>
       </div>
 
       <div class="swiper">
-        <div class="card-wrapper">
+        <div class="card-wrapper" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
           <ul class="card-list swiper-wrapper">
             <li class="card-item swiper-slide">
               <a href="#" class="card-link">
@@ -143,7 +154,7 @@
           <div class="swiper-slide-button swiper-button-next"></div>
         </div>
       </div>
-      <div class="next-berita">
+      <div class="next-berita" data-aos="fade-left">
         <a href="#">Lihat Berita Lainnya</a>
       </div>
     </section>
@@ -155,7 +166,7 @@
         <div class="footer-col">
           <img src="img/KESATRIA CIDAUN (500 x 200 px).png" alt="" />
           <p class="caption-kst">Paguron Pencak Silat Kesatria Cidaun <br />menganut sistem sambung bebas yang <br />sebenarnya atau Real Fight atau lebih <br />dikenal dengan Full Body Contact System</p>
-          <a href="#">~ Develop 🧑‍💻 By Muhamad Nur Salam ~</a>
+          <a href="https://lam89-code.github.io/itw2024_project1_243040083/">~ Develop 🧑‍💻 By Muhamad Nur Salam ~</a>
         </div>
 
         <div class="footer-col">
@@ -183,16 +194,26 @@
         </div>
       </div>
       <hr />
-      <div class="row2">
+      <div class="row2 animate__animated animate__backInUp">
         <p>2024 © KST CDN | All Rights Reserved.</p>
       </div>
     </footer>
     <!-- End Footer -->
 
     <!-- Script -->
+    <!-- Media Icon -->
     <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- End Media Icon -->
 
+    <!-- Animation AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- End Animation AOS -->
+
+    <!-- Animation Swipper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
       var slidIndex = 1;
       showSlides(slidIndex);
@@ -216,6 +237,8 @@
         slides[slidIndex - 1].style.display = "block";
       }
     </script>
+    <!-- End Animation Swipper -->
+
     <script src="script.js"></script>
     <!-- End Script -->
   </body>
