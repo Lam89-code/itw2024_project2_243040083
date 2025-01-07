@@ -66,7 +66,8 @@
       <div class="box">
         <div class="contact form">
           <h3>Ayoo! bergabung dan kepoin Kesatria Cidaun</h3>
-          <form action="">
+          <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <input type="hidden" name="access_key" value="8e4ad78a-6fa2-49bf-9b2b-bc3dbbf7abf9" />
             <div class="formBox">
               <div class="row50">
                 <div class="inputBox">
@@ -75,25 +76,25 @@
                 </div>
                 <div class="inputBox">
                   <span>Nama Belakang</span>
-                  <input type="text" placeholder="Last Name Anda" />
+                  <input type="text" name="name" placeholder="Nama" />
                 </div>
               </div>
 
               <div class="row50">
                 <div class="inputBox">
                   <span>Email</span>
-                  <input type="text" placeholder="Email anda" />
+                  <input type="email" name="email" placeholder="Email" />
                 </div>
                 <div class="inputBox">
                   <span>No.Telp</span>
-                  <input type="text" placeholder="Nomor anda" />
+                  <input type="text" name="name" placeholder="Nomor Anda" />
                 </div>
               </div>
 
               <div class="row100">
                 <div class="inputBox">
                   <span>Pesan</span>
-                  <textarea name="Pesan anda..." id=""></textarea>
+                  <textarea name="text" class="contact-inputs" placeholder="Pesan"></textarea>
                 </div>
               </div>
 
@@ -184,6 +185,30 @@
         }
         slides[slidIndex - 1].style.display = "block";
       }
+    </script>
+    <script>
+      const form = document.querySelector("form");
+
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const formData = new FormData(form);
+        fetch(form.action, {
+          method: form.method,
+          body: formData,
+        })
+          .then((response) => {
+            if (response.ok) {
+              alert("Form berhasil terkirim!");
+              form.reset();
+            } else {
+              alert("Terjadi kesalahan saat mengirim form.");
+            }
+          })
+          .catch(() => {
+            alert("Gagal menghubungi server.");
+          });
+      });
     </script>
     <script src="script.js"></script>
     <!-- End Script -->
