@@ -1,6 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
   padding: 10px;
   background-color: #fff;
   width: 2500px;
-  height: 210vh;
+  height: 90vh;
   border: 2px solid transparent;
   box-shadow: 0 0 5px #000;
   border-radius: 5px;
@@ -29,7 +29,7 @@ body {
 
 .col-1 img {
   padding-top: 20px;
-width: 700px;
+  width: 900px;
   padding: 15px;
 }
 
@@ -37,7 +37,7 @@ width: 700px;
   padding: 10px;
   background-color: #fff;
   width: 1000px;
-  height: 100vh;
+  height: 145vh;
   border: 2px solid transparent;
   box-shadow: 0 0 5px #000;
   border-radius: 5px;

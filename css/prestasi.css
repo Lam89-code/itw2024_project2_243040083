@@ -1,8 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  transition: 0.5s;
 }
 
 body {
@@ -23,31 +21,30 @@ body {
   padding: 10px;
   background-color: #fff;
   width: 2500px;
-  height: 190vh;
+  height: 230vh;
   border: 2px solid transparent;
   box-shadow: 0 0 5px #000;
   border-radius: 5px;
 }
 
-.col-1 .judul{
-  text-align: center;
-  font-size: 30px;
-  color: #000;
-  padding-bottom: 50PX;
-  color: brown;
+.col-1 img {
+  padding-top: 20px;
+  width: 900px;
+  padding: 15px;
 }
 
-.col-1 p {
-  padding-top: 20px;
-  text-align: justify;
-  padding: 15px;
+.col-1 a {
+  text-decoration: none;
+  padding: 100px;
+  color: brown;
+  cursor: pointer;
 }
 
 .col-2 {
   padding: 10px;
   background-color: #fff;
   width: 1000px;
-  height: 150vh;
+  height: 145vh;
   border: 2px solid transparent;
   box-shadow: 0 0 5px #000;
   border-radius: 5px;
