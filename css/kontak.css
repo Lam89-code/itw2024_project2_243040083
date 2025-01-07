@@ -214,18 +214,27 @@ body {
 
 @media (max-width: 780px) {
   .contactus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactus .box {
     width: 100%;
-    padding: 0px 40px;
-    padding-top: 5px;
+    margin-bottom: 20px;
   }
 
-  .contactus .title {
-    font-size: 20px;
-    padding-top: 100px;
+  .contact-info {
+    width: 100%;
+    text-align: center;
   }
 
-  .contact iframe {
-    padding: 0;
-    margin: 0;
+  .contact-info ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-info ul li {
+    margin: 5px;
   }
 }
