@@ -1,6 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -169,5 +169,17 @@ body {
   }
   to {
     opacity: 1;
+  }
+}
+
+@media (max-width: 780px) {
+  .judul {
+    font-size: 20px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+
+  .card-wrapper{
+    padding-top: 150px;
   }
 }

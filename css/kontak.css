@@ -1,5 +1,6 @@
 body {
-background-color: #0a2540;}
+  background-color: #0a2540;
+}
 
 .contactus {
   position: relative;
@@ -106,8 +107,8 @@ background-color: #0a2540;}
   padding: 14px 15px;
 }
 
-.inputBox input:hover{
-    background-color: #0e3950;
+.inputBox input:hover {
+  background-color: #0e3950;
 }
 
 .inputBox::placeholder {
@@ -177,8 +178,8 @@ background-color: #0a2540;}
   height: 100%;
 }
 
-.footer .row2 p{
-    padding-top: 20px;
+.footer .row2 p {
+  padding-top: 20px;
 }
 
 /* Responsif */
@@ -193,20 +194,38 @@ background-color: #0a2540;}
     grid-template-rows: 5fr 4fr;
     grid-template-areas: "form" "info" "map";
   }
-  .map{
+  .map {
     min-height: 300px;
   }
 
-  .formBox .row50{
+  .formBox .row50 {
     display: flex;
     gap: 0;
     flex-direction: column;
   }
 
-  .inputBox{
+  .inputBox {
     width: 100%;
   }
-  .contact{
+  .contact {
     padding: 30px;
+  }
+}
+
+@media (max-width: 780px) {
+  .contactus {
+    width: 100%;
+    padding: 0px 40px;
+    padding-top: 5px;
+  }
+
+  .contactus .title {
+    font-size: 20px;
+    padding-top: 100px;
+  }
+
+  .contact iframe {
+    padding: 0;
+    margin: 0;
   }
 }
